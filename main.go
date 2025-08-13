@@ -87,9 +87,8 @@ func frameHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	list_cameras()
 	var err error
-	webcam, err = gocv.OpenVideoCapture(1)
+	webcam, err = gocv.OpenVideoCapture(0)
 	if err != nil {
 		panic(err)
 	}
