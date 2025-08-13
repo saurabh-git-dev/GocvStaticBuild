@@ -7,7 +7,7 @@ Repository contains a minimal example of opencv static linking in golang app wit
     ```shell
     go mod tidy
     ```
-2. Install Opencv 
+2. Install Opencv ([https://gocv.io/getting-started/windows/](https://gocv.io/getting-started/windows/))
     ```shell
     cd C:\Users\{USER}\go\pkg\mod\gocv.io\x\gocv@v0.42.0
     win_build_opencv.cmd static
